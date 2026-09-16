@@ -1,0 +1,17 @@
+# Environment & Secrets
+.env
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Runtime Data & Logs
+Data/ChatLog.json
+Jarvis Memory Backup/
+*.mp3
