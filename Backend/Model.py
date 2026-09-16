@@ -54,18 +54,7 @@ chatHistory = [
 
 def FirstLayerDMM(prompt: str = "test"):
 
-    messages.append({"role": "user", "content": f"{prompt}"})
-
-
-    stream = co.chat_stream(
-        model = 'command-r-plus-08-2024',
-        message = prompt,
-        temperature=0.7,
-        chat_history=chatHistory,
-        prompt_truncation='OFF',
-        connectors=[],
-        preamble=preamble
-    )
+   
 
 
     response = ""
